@@ -1,0 +1,20 @@
+{
+  "name": "price-tracker",
+  "version": "1.0.0",
+  "description": "MERN Price Tracker Application",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "scraper": "cd scraper && python scraper_service.py",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run scraper\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install && cd ../scraper && pip install -r requirements.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "concurrently": "^8.2.2"
+  }
+}
