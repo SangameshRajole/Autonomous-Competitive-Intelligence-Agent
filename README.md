@@ -309,6 +309,3 @@ MIT License - feel free to use this project for learning or personal use.
 
 For issues or questions, please open an issue on the repository.
 
----
-
-Built with ❤️ by Trishul S using the MERN stack
