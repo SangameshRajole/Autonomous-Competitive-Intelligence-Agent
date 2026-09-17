@@ -303,7 +303,7 @@ MIT License - feel free to use this project for learning or personal use.
 
 ## Author
 
-**Trishul S** - *Initial work and development*
+**Sangamesh Rajole** - *Initial work and development*
 
 ## Support
 
